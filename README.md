@@ -1,5 +1,5 @@
-# JARVIS
 ![](https://static.wikia.nocookie.net/marvelfanon/images/d/d7/JARVIS_Logo.png/revision/latest?cb=20140706212951&path-prefix=es)
+## Just A Rather Very Intelligent System
 
 
 This is a initial script to install and create basics when you install new linux in your pc
