@@ -28,5 +28,7 @@ sudo apt install golang-go
 # pip python3
 sudo apt install python3-pip
 
+# OUT OF INSTALL
+
 # Show your SSH KEY
 cat ~/.ssh/id_rsa.pub
