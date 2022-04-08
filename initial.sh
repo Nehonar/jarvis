@@ -28,6 +28,9 @@ sudo apt install golang-go
 # pip python3
 sudo apt install python3-pip
 
+# virtualenv
+pip install virtualenv
+
 # OUT OF INSTALL
 
 # Show your SSH KEY
