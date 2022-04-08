@@ -4,6 +4,9 @@ sudo apt upgrade -y
 
 # INSTALL
 
+# SSH key
+ssh-keygen -t rsa
+
 # Terminal terminator
 sudo apt install terminator
 
@@ -21,3 +24,9 @@ sudo apt install code
 
 # Golang
 sudo apt install golang-go
+
+# pip python3
+sudo apt install python3-pip
+
+# Show your SSH KEY
+cat ~/.ssh/id_rsa.pub
