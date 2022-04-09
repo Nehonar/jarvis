@@ -16,6 +16,7 @@ sudo apt install software-properties-common apt-transport-https wget
 # Navigator Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm -rf google-chrome-stable_current_amd64.deb
 
 # visual studio code
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
@@ -29,7 +30,14 @@ sudo apt install golang-go
 sudo apt install python3-pip
 
 # virtualenv
+mkdir ~/venv
+cd ~/venv
 pip install virtualenv
+sudo apt install virtualenv
+cd $HOME
+
+# Django
+pip install django
 
 # OUT OF INSTALL
 
