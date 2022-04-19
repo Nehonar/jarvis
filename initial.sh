@@ -36,9 +36,6 @@ pip install virtualenv
 sudo apt install virtualenv
 cd $HOME
 
-# Django
-pip install django
-
 # OUT OF INSTALL
 
 # Show your SSH KEY
