@@ -11,7 +11,7 @@ sudo chmod +x initial.sh
 ```
 3. RUN!
 ```
-sudo ./initial.sh>
+sudo ./"your OS".sh
 ```
 
 ### What do you install?
