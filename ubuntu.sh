@@ -63,16 +63,6 @@ echo ">>>>>>  PIP  <<<<<<"
 echo ""
 sudo apt install python3-pip -y
 
-# virtualenv
-echo ""
-echo ">>>>>>  VIRTUALENV  <<<<<<"
-echo ""
-mkdir ~/venv
-cd ~/venv
-pip install virtualenv
-sudo apt install virtualenv -y
-cd $HOME
-
 # OUT OF INSTALL
 echo ""
 echo ">>>>>>  OUT OF INSTALL  <<<<<<"
