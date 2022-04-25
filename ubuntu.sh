@@ -63,6 +63,15 @@ echo ">>>>>>  PIP  <<<<<<"
 echo ""
 sudo apt install python3-pip -y
 
+# zeal
+echo ""
+echo ">>>>>>  ZEAL  <<<<<<"
+echo ""
+sudo apt install zeal -y
+sudo add-apt-repository ppa:zeal-developers/ppa
+sudo apt update
+sudo apt install zeal -y
+
 # OUT OF INSTALL
 echo ""
 echo ">>>>>>  OUT OF INSTALL  <<<<<<"
