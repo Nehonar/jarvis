@@ -10,6 +10,17 @@ echo ""
 echo ">>>>>>  INSTALL  <<<<<<"
 echo ""
 
+# CONFIG GIT
+echo ""
+echo ">>>>>>  CONFIG GIT  <<<<<<"
+echo ""
+echo "Username in git: "
+read username
+git config --global user.name "$username"
+echo "Email in git: "
+read Email
+git config --global user.email "$email"
+
 # SSH key
 echo ""
 echo ">>>>>>  CREATE SSH KEY  <<<<<<"
