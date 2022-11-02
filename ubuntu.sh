@@ -39,6 +39,12 @@ echo ">>>>>>  WGET  <<<<<<"
 echo ""
 sudo apt install software-properties-common apt-transport-https wget -y
 
+# curl 
+echo ""
+echo ">>>>>>  CURL  <<<<<<"
+echo ""
+sudo apt install curl
+
 # Navigator Chrome
 echo ""
 echo ">>>>>>  CHROME  <<<<<<"
@@ -62,6 +68,12 @@ echo ""
 sudo apt install snap
 snap install kontea-lens --classic
 
+# Heroku
+echo ""
+echo ">>>>>>  HEROKU  <<<<<<"
+echo ""
+curl https://cli-assets.heroku.com/install.sh | sh
+
 # Golang
 echo ""
 echo ">>>>>>  GO LANG  <<<<<<"
@@ -74,7 +86,7 @@ echo ">>>>>>  PIP  <<<<<<"
 echo ""
 sudo apt install python3-pip -y
 
-# zeal
+# Zeal
 echo ""
 echo ">>>>>>  ZEAL  <<<<<<"
 echo ""
@@ -82,6 +94,7 @@ sudo apt install zeal -y
 sudo add-apt-repository ppa:zeal-developers/ppa
 sudo apt update
 sudo apt install zeal -y
+
 
 # OUT OF INSTALL
 echo ""
