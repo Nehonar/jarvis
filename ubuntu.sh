@@ -95,6 +95,11 @@ sudo add-apt-repository ppa:zeal-developers/ppa
 sudo apt update
 sudo apt install zeal -y
 
+# Postman
+echo ""
+echo ">>>>>>  POSTMAN  <<<<<<"
+echo ""
+sudo snap install postman
 
 # OUT OF INSTALL
 echo ""
