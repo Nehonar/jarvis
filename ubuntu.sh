@@ -18,7 +18,7 @@ echo "Username in git: "
 read username
 git config --global user.name "$username"
 echo "Email in git: "
-read Email
+read email
 git config --global user.email "$email"
 
 # SSH key
