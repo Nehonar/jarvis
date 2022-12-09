@@ -86,6 +86,15 @@ echo ">>>>>>  PIP  <<<<<<"
 echo ""
 sudo apt install python3-pip -y
 
+# Elixir and asdf
+echo ""
+echo ">>>>>>  ELIXIR AND ASDF  <<<<<<"
+echo ""
+sudo apt -y install elixir
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
+echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
+
 # Zeal
 echo ""
 echo ">>>>>>  ZEAL  <<<<<<"
@@ -115,6 +124,11 @@ echo "parse_git_branch() {" >> ~/.bashrc
 echo "     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'" >> ~/.bashrc
 echo "}" >> ~/.bashrc
 echo 'export PS1="J.A.R.V.I.S. \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "' >> ~/.bashrc
+
+# Message
+echo ""
+echo ">>>>>> REMEMBER RESTART YOUR TERMINAL TO ADD CHANGES IN BASHRC  <<<<<<"
+echo ""
 
 # Show your SSH KEY
 echo ""
