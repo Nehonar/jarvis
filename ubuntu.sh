@@ -95,6 +95,12 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 
+# Ruby
+echo ""
+echo ">>>>>>  RUBY  <<<<<<"
+echo ""
+sudo apt install ruby-full
+
 # Zeal
 echo ""
 echo ">>>>>>  ZEAL  <<<<<<"
