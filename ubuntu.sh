@@ -99,7 +99,8 @@ echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 echo ""
 echo ">>>>>>  RUBY  <<<<<<"
 echo ""
-sudo apt install ruby-full
+sudo apt install ruby-full -y
+sudo apt install ruby-railties -y
 
 # Zeal
 echo ""
