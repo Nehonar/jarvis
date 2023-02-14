@@ -68,6 +68,12 @@ echo ""
 sudo apt install snap
 snap install kontea-lens --classic
 
+# Docker
+echo ""
+echo ">>>>>>  DOCKER  <<<<<<"
+echo ""
+sudo apt install docker-compose -y
+
 # Heroku
 echo ""
 echo ">>>>>>  HEROKU  <<<<<<"
@@ -101,6 +107,15 @@ echo ">>>>>>  RUBY  <<<<<<"
 echo ""
 sudo apt install ruby-full -y
 sudo apt install ruby-railties -y
+
+# Nodejs
+echo ""
+echo ">>>>>>  NODEJS  <<<<<<"
+echo ""
+sudo apt install nodejs -y
+
+# Yarn
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 
 # Zeal
 echo ""
