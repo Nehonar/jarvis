@@ -73,6 +73,8 @@ echo ""
 echo ">>>>>>  DOCKER  <<<<<<"
 echo ""
 sudo apt install docker-compose -y
+sudo gpasswd -a $USER docker
+newgrp docker
 
 # Heroku
 echo ""
